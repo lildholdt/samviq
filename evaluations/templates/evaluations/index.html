@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1>Velkommen til billedkvalitetsevalueringen</h1>
+<div class="info-box">
+	<p>
+		I forbindelse med mit speciale på uddannelsen til Civilingeniør i Computer Teknologi ved Aarhus Universitet, skal jeg indsamle evalueringer af billedkvalitet. Evalueringerne består af to forskellige slags; vurderinger foretaget af mennersker, som ser billederne og vurderer kvaliteten, samt vurderinger fra en computer, som beregner kvaliteten på billederne.
+	</p>
+	<p>
+		Jeg er utrolig glad for, at du har vist interesse for at hjælpe mig i mit speciale. Du skal være opmærksom på at denne evalueringssession tager mellem 15 og 20 minutter, hvilket jeg håber at du vil tage dig tid til.
+	</p>
+	<p>
+		Du har desværre kun mulighed for at hjælpe mig med dette, hvis du ikke arbejder med billeder til daglig (er fotograf eller lign.). Derfor er jeg nødt til at spørge dig - arbejder du med billeder til daglig?
+	</p>
+</div>
+<div class="index-buttons">
+	<a href="/tutorial/" class="button"><span class="emph">NEJ</span>, jeg arbejder <span class="emph">IKKE</span> med billeder til daglig</a>
+	<a href="/end-nopa/" class="button"><span class="emph">JA</span>, jeg arbejder med billeder til daglig</a>
+</div>
+{% endblock %}
